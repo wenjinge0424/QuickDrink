@@ -20,8 +20,8 @@
 /* ***************************** Stripe config ********************************/
 /* ***************************************************************************/
 
-#define STRIPE_KEY                              @"sk_test_HJads0i9zLX4C8RItPYStuxP"
-//#define STRIPE_KEY                              @"sk_live_CeT8D45eqwRqFnAGgmCwinoy"
+#define STRIPE_KEY                              @""
+//#define STRIPE_KEY                              @""
 #define STRIPE_URL                              @"https://api.stripe.com/v1"
 #define STRIPE_CHARGES                          @"charges"
 #define STRIPE_CUSTOMERS                        @"customers"
@@ -40,7 +40,7 @@
 #define WEB_END_POINT_ITEM_SEARCH_URL                           @"http://data.enzounified.com:19551/bsc/AmazonPA/ItemSearch"
 #define WEB_END_POINT_ITEM_LOOKUP_URL                           @"http://data.enzounified.com:19551/bsc/AmazonPA/ItemLookup/%@"
 
-#define AUTH_TOKEN_KEY                                          @"98c9c3d6-6c1e-4b8a-acd3-9177a1176d90"
+#define AUTH_TOKEN_KEY                                          @""
 
 /* Friend / SO status values */
 #define FRIEND_INVITE_SEND                                      @"Invite"

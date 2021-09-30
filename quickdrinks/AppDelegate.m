@@ -29,8 +29,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-//    [GMSServices provideAPIKey:@"AIzaSyA-cA4EfKfUZwHAXWNuFbH3uhvtpDazurw"];
-    [GMSPlacesClient provideAPIKey:@"AIzaSyB18lwBHah2rYfz_nIgW8AGyMkrTFaRmDs"];
+//    [GMSServices provideAPIKey:@""];
+    [GMSPlacesClient provideAPIKey:@""];
     // Google SignIn
     [GIDSignIn sharedInstance].clientID = @"401999159011-qlni1123nr5b1ituavlulq101f0hov9n.apps.googleusercontent.com";
     
